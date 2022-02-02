@@ -1,2 +1,2 @@
-# webpage
-Jia-Huei Ju's personal webpage.
+# My Personal Webpage
+Jia-Huei Ju's personal webpage: https://dylanjoo.github.io/
