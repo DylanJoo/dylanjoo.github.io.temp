@@ -79,7 +79,7 @@ body::before {
     border-bottom: 1px solid #e8e8e8;
  }
 
-#info, .field, #menu{
+.field, #menu{
 	max-width: 800px;
 	margin-right: auto;
 	margin-left: auto;
@@ -113,18 +113,18 @@ body::before {
 	border-color: #66c2a5;
 }
 
-@media (min-width:1800px) {
-	#background-container{ font-size: 13pt; }
-	.my-container{ max-width: 1400px; }
-	.container{ max-width: 1400px; }
-	#info, .field, #menu{ max-width: 1200px; }
-}
-@media (min-width:2400px) {
-	#background-container{ font-size: 16pt; }
-	.my-container{ max-width: 1800px; }
-	.container{ max-width: 1800px; }
-	#info, .field, #menu{ max-width: 1600px; }
-}
+/* @media (min-width:1800px) { */
+/* 	#background-container{ font-size: 13pt; } */
+/* 	.my-container{ max-width: 1400px; } */
+/* 	.container{ max-width: 1400px; } */
+/* 	#info, .field, #menu{ max-width: 1200px; } */
+/* } */
+/* @media (min-width:2400px) { */
+/* 	#background-container{ font-size: 16pt; } */
+/* 	.my-container{ max-width: 1800px; } */
+/* 	.container{ max-width: 1800px; } */
+/* 	#info, .field, #menu{ max-width: 1600px; } */
+/* } */
 
 .wrap { /*width: 450px; height: 300px; */ padding: 0; overflow: hidden; margin-right: 2%; }
 .frame { /*width: 600px; height: 390px;*/
@@ -138,8 +138,8 @@ body::before {
     -webkit-transform-origin: 0 0;
 }
 
-#info span { /* Korean name */
-	font-family: Open Sans,Tahoma,Arial,Verdana,sans-serif;*
+#info span { 
+	font-family: Open Sans;*
 }
 
 .field h3{
@@ -164,21 +164,20 @@ h4.first {
 	margin-right: 40px;
 }
 
-.my-container h3, #info h2{
-	/*font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;*/
-	font-size: 180%;
-	color: #222; /* #482086; */ /* #4B0082; */
-	font-weight: bold;
-}
-
-
-.my-container p{
-	margin-bottom: 5px;
-}
-
-.my-container a:hover{
-	background-color: #FFC0CB;
-}
+/* .my-container h3, #info h2{ */
+/* 	font-size: 180%; */
+/* 	color: #222; /* #482086; */ /* #4B0082; */ */
+/* 	font-weight: bold; */
+/* } */
+/*  */
+/*  */
+/* .my-container p{ */
+/* 	margin-bottom: 5px; */
+/* } */
+/*  */
+/* .my-container a:hover{ */
+/* 	background-color: #FFC0CB; */
+/* } */
 
 .blank{
 	height: 30px;
@@ -194,10 +193,17 @@ sup{
 
 /* info */
 
+#info {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 800px;
+}
+
 #info img{
 	padding: 20px;
-	border-radius: 50%;
-	max-width: 300px;
+	border-radius: 80%;
+	min-width: 200px;
+	max-width: 250px;
 	height: auto;
 }
 
