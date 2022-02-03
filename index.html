@@ -15,9 +15,10 @@ Personal Webpage (https://dylanjoo.github.io)
     <link href="styles/index.css" rel="stylesheet">
     <title>Jia-Huei Ju</title>
   </head>
+
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md bg-light navbar-light">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" role="navigation">
       <div class='container'>
         <a href="#" class="navbar-brand">Jia-Huei Ju</a>
         <button 
@@ -38,28 +39,25 @@ Personal Webpage (https://dylanjoo.github.io)
 
     <!-- SHOWCASE -->
     <section class="bg-light text-dark p-2 text-center text-sm-start">
-      <div class="container" style="max-width: 800px">
+      <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
-          <img class="img-fluid w-50 m-5 d-none d-md-block" style="border-radius: 10%; max-width: 30%" src="assets/dylan.jpg" alt="" >
-          <div class="column-long col-md-6" style="width: 55%">
-            <h2>Jia-Huei Ju <span style="font-size: 50%">(朱家輝)</span></h2>
-            <br/>
-            <p class="">
-              Jia-Huei (Dylan) Ju is currently a full-time research assistant in Academia Sinica. 
-              His research interest includes two big area -- Natural Language Processing and Econometrics, 
-              and the related applications as well. He is actively looking for the related research opportunities.
-            </p>
-            <br/>
-            <br/>
-            <!-- CONTACT -->
-            <div class="d-flex flex-row">
-              <div class="column column-25">
+          <!-- PHOTO -->
+          <img class="img-fluid w-25 m-3 d-sm-block" style="border-radius: 30%" src="assets/dylan.jpg" alt="" >
+          <!-- INFO -->
+          <!-- <div class="column-long col-sm-6 w-50"> -->
+          <div class="m-3">
+            <h2 class="mb-2">Jia-Huei Ju <span style="font-size: 50%">(朱家輝)</span></h2>
+            <p class="my-1">Research Assistant</p>
+            <p class="my-1">Research Center for Information Technology Innovation</p>
+            <p class="my-1">Academia Sinica</p>
+            <div class="d-sm-flex flex-row mt-3">
+              <div class="col-sm my-1">
                 <a href="https://www.github.com/DylanJoo" target="_blank"><i class="fab fa-github"></i> Github</a>
               </div>
-              <div class="column column-25">
+              <div class="col-sm my-1">
                 <a href="mailto:jhjoo@citi.sinica.edu.tw" target="_blank"><i class="fas fa-envelope"></i> Email</a>
               </div>
-              <div class="column column-25">
+              <div class="col-sm my-1">
                 <a href="https://www.linkedin.com/in/jia-huei-ju-a14015112/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
               </div>
             </div>
@@ -68,12 +66,20 @@ Personal Webpage (https://dylanjoo.github.io)
       </div>
     </section>
 
-    <section class="p-5">
-      <div class="row">
-        <div class="col-md">
-          <h3>News</h3>
+    <!-- BIO -->
+    <section class="bg-light text-dark p-2 text-left">
+     <div class="container">
+        <div class="row m-3 text-left">
+          <div class="column">
+            <h3>Biography</h3>
+            <p>
+              Jia-Huei (Dylan) Ju is currently a full-time research assistant in Academia Sinica. 
+              His research interest includes two big area -- Natural Language Processing and Econometrics, 
+              and the related applications as well. He is actively looking for the related research opportunities.
+            </p>
+          </div>
         </div>
-      <div>
+      </div>
     </section>
 
     <script src="https://kit.fontawesome.com/577bc4e5c5.js" crossorigin="anonymous"></script>
