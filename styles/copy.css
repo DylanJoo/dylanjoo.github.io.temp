@@ -39,10 +39,7 @@ body::before {
 }
 
 .container {
-	max-width: 800px;
-	padding: 10px;
-	margin-right: auto;
-	margin-left:auto;
+	max-width: 900px;
 }
 
 /* navigator section */
